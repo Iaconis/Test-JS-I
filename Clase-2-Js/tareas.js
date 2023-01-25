@@ -152,6 +152,14 @@ function esPositivo(numero) {
   // Si el número es negativo, devolver ---> "Es negativo"
   // Si el número es 0, devuelve false
   // Tu código:
+  let result= numero !=0
+  if (numero > 0) {
+    result='Es positivo'
+  } else {
+    result = 'Es negativo'
+  }
+    
+  return result 
 }
 
 function agregarSimboloExclamacion(str) {
